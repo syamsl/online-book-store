@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.slider img ,
+.card-image{
+    height: 35rem;
+    object-fit: contain;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.inpWidth{
+  width: 3rem;
+}
+
+.pos{
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+
+*{
+  font-family: 'Roboto';
+}
+
+.textlg{
+  font-size: larger;
+}
+
+.float{
+  float:inline-start
+}
+
+.grad {
+  background-image: linear-gradient(to bottom right, rgb(226, 225, 225),rgb(161, 157, 157));
+}
+.grad-button {
+  border-radius: 2px;
+  background-image: linear-gradient(to bottom right, rgb(230, 223, 223),rgb(136, 127, 127));
+}
+
+.stripepay-button {
+  border-radius: 4px;
+  cursor: pointer;
+  background-image: linear-gradient(to bottom right, rgb(110, 34, 209),rgb(124, 61, 160));
+}
+
+
+.grad-input {
+  border: .3x solid #cfcfcf;
+  padding: 6px;
+  box-shadow:2px 2px 4px #888888;
+  border-radius: 3px;
+  background-image: linear-gradient(to bottom right, rgb(221, 215, 215),rgb(199, 195, 195));
+}
+
+body {
+	background: linear-gradient(-45deg, #ffffff, #ffffff);
+	background-size: 400% 400%;
+	-webkit-animation: gradient 15s ease infinite;
+	        animation: gradient 15s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.shaw{ 
+  color: white;
+  text-shadow: 1px 1px 3px #000000;
+}
+
+.card-shaw
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.shadowCom{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
